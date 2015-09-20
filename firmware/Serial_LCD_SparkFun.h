@@ -16,8 +16,8 @@
         The latest version of NewSoftSerial library can 
         always be found at http://arduiniana.org. -> NO LONGER NECESSARY. See 1.5 notes above.-Jordan Hochenbaum
 */
-#ifndef Serial_LCD_SparkFun_h
-#define Serial_LCD_SparkFun_h
+#ifndef Serial_LCD_SparkFun-20x4_h
+#define Serial_LCD_SparkFun-20x4_h
 
 #include "application.h"
 

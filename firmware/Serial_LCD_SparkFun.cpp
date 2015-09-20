@@ -20,7 +20,7 @@
  
 */
 
-#include "Serial_LCD_SparkFun.h"
+#include "Serial_LCD_SparkFun-20x4.h"
 
 //	PUBLIC FUNCTIONS
 
@@ -29,8 +29,8 @@
 Serial_LCD_SparkFun::Serial_LCD_SparkFun() {
 	//pinMode(pin, OUTPUT);
 	Serial1.begin(9600);
-	_numlines = LCD_2LINE;
-	_numchars = LCD_16CHAR;
+	_numlines = LCD_4LINE;
+	_numchars = LCD_20CHAR;
 	_rowoffset = 0;
 }
 
@@ -154,7 +154,7 @@ void Serial_LCD_SparkFun::setCursor(int row, int col){
 		{ 0x00, 0x40, 0x10, 0x50 },
 		{ 0x00, 0x40, 0x14, 0x54 }
 	};
-	if((row > 0 && row < 3) && (col > 0 && col < 17)){
+	if((row > 0 && row < 5) && (col > 0 && col < 21)){
            command(LCD_SETDDRAMADDR | ((col - 1) + row_offsets[_rowoffset][(row - 1)]));
 	}
 }

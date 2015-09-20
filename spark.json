@@ -1,7 +1,7 @@
 {
-    "name": "Serial_LCD_SparkFun",
+    "name": "Serial_LCD_SparkFun-20x4",
     "version": "0.0.1",
-    "author": "Richard Whitney <richard@particle.io>",
+    "author": "Jason Leyrer <jleyrer@gmail.com>",
     "license": "LGPL",
-    "description": "A port of the `serLCD` library for the 16x2 LCD. Connect the LCD's RX to the Particle's TX, and print to Serial1"
+    "description": "Nearly identical to Richard Whitney's Serial_LCD_SparkFun, but updated to use the 20x4 LCD."
 }

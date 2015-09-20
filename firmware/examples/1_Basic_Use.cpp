@@ -1,4 +1,4 @@
-#include "Serial_LCD_SparkFun/Serial_LCD_SparkFun.h"
+#include "Serial_LCD_SparkFun-20x4/Serial_LCD_SparkFun-20x4.h"
 
 /* 
 This is a port of the wonderful library found here: http://playground.arduino.cc/Code/SerLCD
